@@ -1,0 +1,10 @@
+//Calcular y mostrar cuantos ladrillos se necesitaran
+Algoritmo Ejer2
+	Escribir "Ingrese el valor de X en metros"
+	Leer X
+	Escribir "Ingrese el valos de i en metros"
+	Leer  i
+	area<- X * i
+	ladrillos<- area * 20
+	Escribir "Se necesitan", ladrillos, "ladrillos para cubrir area de ", area, "m2."
+FinAlgoritmo

@@ -1,0 +1,11 @@
+//Calcular cuanto debe pagar en 5 años
+Algoritmo Ejer3
+	Definir P, M Como Real
+	Definir tasa, tiempo Como Real
+	tasa<- 0.03
+	tiempo<- 5
+	Escribir "Ingrese el monto inicial del prestamo:"
+	Leer P
+	M<- P * (1 + tasa)/tiempo
+	Escribir "El monto total a pagar despues de ", tiempo, "años es: ", M
+FinAlgoritmo
